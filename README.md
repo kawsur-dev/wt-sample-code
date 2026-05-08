@@ -1,1 +1,3 @@
 # wt-sample-code
+
+For an online course website, the admin needs to create courses using a course creation form and view all available courses in a tabular format after creation. The application should be developed using MVC architecture in PHP with MySQL database integration. The system must support inserting new courses, retrieving all course data from the database, displaying the course list dynamically, and refreshing the course table using raw AJAX (`XMLHttpRequest`) without reloading the page. Separate controllers should be used for normal page requests and AJAX requests, where normal requests handle page navigation and AJAX requests return JSON responses.
